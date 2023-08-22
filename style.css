@@ -1,0 +1,21 @@
+canvas{
+    text-align: center;
+    background: lightcoral;
+    border-radius: 20px;
+    box-shadow: lightslategray;
+    border:black;
+    border-style:dashed;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example  { 
+    from {box-shadow: 1px 1px 38px white;}
+    to {box-shadow: 1px 1px 38px red;}
+}
+
+#heading {
+    font-size: 20px;
+}
